@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>InterCDMA</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body class="page-news article">
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<header>
+  <div class="decor_line decor_line-black"></div>
+  <div class="header_left header-side text-center">
+    <div class="header-divider_top">
+      <span class="phone-number">+38 <span class="phone-number-red">044</span> 362 4664</span>
+    </div>
+    <div class="header-divider_bottom">
+      <span class="login-panel"><a href="#" class="login-panel-red js-btn-login">Вход</a> / <a href="#">Регистрация</a></span>
+    </div>
+  </div>
+
+  <div class="header_right header-side">
+    <div class="header-divider_top">
+      <ul class="social list-unstyled">
+        <li><a href="#" class="social-vk"></a></li>
+        <li><a href="#" class="social-fb"></a></li>
+        <li><a href="#" class="social-it"></a></li>
+        <li><a href="#" class="social-tw"></a></li>
+        <li><a href="#" class="social-yt"></a></li>
+      </ul>
+    </div>
+    <div class="header-divider_bottom">
+      <div class="searchbox">
+        <form action="http://intercdma.ua/search/" method="get">
+          <div class="searchstring-wrap">
+            <span class="sprite ico-searchstring"></span>
+            <input type="text" class="searchstring_field" id="searchstring" name="searchstring" placeholder="Поиск...">
+            <div class="search-result-wrap">
+              <ul class="search-result"></ul>
+              <div class="search-result-all js-result-all">
+                <span>Все результаты поиска</span><span class="sprite ico-two_arrows"></span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="header_center text-center">
+    <a href="http://intercdma.ua/"><img src="./images/logo.gif" width="210" height="75" alt=""></a>
+  </div>
+
+</header>
+<nav id="menu">
+  <div class="nav-links">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="http://intercdma.ua/auxpage_about-company/">О компании</a></li>
+      <li>
+        <a href="http://intercdma.ua/#catalog">Каталог товаров <span class="triangle_bottom"></span> </a>
+        <ul class="nav-sub_menu">
+          <li><a href="#">МОБИЛЬНЫЕ ТЕЛЕФОНЫ</a></li>
+          <li><a href="#">ПЛАНШЕТЫ</a></li>
+          <li><a href="#">USB МОДЕМЫ</a></li>
+          <li><a href="#">MIFI РОУТЕРЫ</a></li>
+          <li><a href="#">АКСЕССУАРЫ</a></li>
+        </ul>
+      </li>
+      <li><a href="http://intercdma.ua/blog/">Новости</a></li>
+      <li><a href="#">Подключение</a></li>
+      <li><a href="http://intercdma.ua/auxpage_contacts/">Контакты</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="content" class="need-custom-select checkout">
+  <div class="wrap">
+    <div class="content">
+      <div class="content__title">
+        <h2 class="content__title-item">Оформление заказа</h2>
+        <div class="content__title-decor"></div>
+      </div>
+
+      <div>
+        <div class="step_unit active">
+          <div class="step_unit-header">
+            <span>Шаг 1: Контактные данные</span>
+            <a href="#" class="step_unit-header-edit">Редактировать <span class="sprite ico-two_arrows"></span></a>
+          </div>
+
+          <div class="step_unit-content">
+            
+            <div class="form--default form--colum-two">
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <label for="">Имя</label>
+                  <div>
+                    <input type="text" placeholder="Имя">
+                  </div>
+                </div>
+
+                <div class="form--default--item">
+                  <label for="">Мобильный телефон</label>
+                  <div>
+                    <input type="text" placeholder="Мобильный телефон">
+                  </div>
+                </div>
+              </div>
+
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <label for="">Фамилия</label>
+                  <div>
+                    <input type="text" placeholder="Фамилия">
+                  </div>
+                </div>
+
+                <div class="form--default--item">
+                  <label for="">E-mail</label>
+                  <div class="form--default--item">
+                    <input type="text" placeholder="E-mail">
+                  </div>
+                </div>
+              </div>
+
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <label for="">Город</label>
+                    <div class="custom-select">
+                      <span class="remove-caret"></span>
+                      <select name="" id="">
+                        <option value="Город">Город</option>
+                        <option value="Одесса">Одесса</option>
+                        <option value="Киев">Киев</option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="step_unit-control">
+              <button type="button" class="btn btn-next">Далее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="step_unit step-delivery">
+          <div class="step_unit-header">
+            <span>Шаг 2: Доставка</span>
+            <a href="#" class="step_unit-header-edit">Редактировать <span class="sprite ico-two_arrows"></span></a>
+          </div>
+
+          <div class="step_unit-content">
+            <div class="form--default form--colum-two">
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <div class="radio-control">
+                    <input type="radio" name="radio-delivery" id="radio-courier">
+                    <label for="radio-courier"><span></span>Курьером</label>
+                  </div>
+                </div>
+
+                <div class="form--default--item">
+                  <div class="radio-control">
+                    <input type="radio" name="radio-delivery" id="radio-post">
+                    <label for="radio-post"><span></span>Новая Почта</label>
+
+                    <div class="custom-select">
+                      <span class="remove-caret"></span>
+                      <select name="" id="">
+                        <option value="Город">Автолюкс</option>
+                        <option value="Одесса">Дельта</option>
+                        <option value="Киев">DMS</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <div class="radio-control">
+                    <input type="radio" name="radio-delivery" id="radio-courier-servise">
+                    <label for="radio-courier-servise"><span></span>Курьерская служба</label>
+
+                    <div class="delivery-service custom-select">
+                      <span class="remove-caret"></span>
+                      <select name="" id="">
+                        <option value="Город">Автолюкс</option>
+                        <option value="Одесса">Дельта</option>
+                        <option value="Киев">DMS</option>
+                      </select>
+                    </div>
+
+                    <div class="custom-select">
+                      <span class="remove-caret"></span>
+                      <select name="" id="">
+                        <option value="">- - - - Выберите пожалуйста адресс - - - -</option>
+                        <option value="Город">Королева</option>
+                        <option value="Одесса">Проспект</option>
+                        <option value="Киев">Варненская</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="form--default--item">
+                  <div class="custom-textarea">
+                    <label for="">Введите коментарии к вашему заказу</label>
+                    <textarea name="" id="" placeholder="Вы можете указать желаемое время доставки, код на домофоне или "></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="step_unit-control">
+              <button type="button" class="btn btn-next">Далее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="step_unit step-payment">
+          <div class="step_unit-header">
+            <span>Шаг 3: Способ оплаты</span>
+            <a href="#" class="step_unit-header-edit">Редактировать <span class="sprite ico-two_arrows"></span></a>
+          </div>
+
+          <div class="step_unit-content">
+            <div class="form--default form--colum-two">
+              <div class="step_unit-row clearfix">
+                <div class="form--default--item">
+                  <input type="radio" name="radio-payment" id="radio-cash">
+                  <label for="radio-cash"><span></span>Наличными</label>
+                </div>
+                <div class="form--default--item">
+                  <div class="radio-control">
+                    <input type="radio" name="radio-payment" id="radio-bank">
+                    <label for="radio-bank"><span></span>Банковский перевод</label>
+
+                    <div class="custom-select">
+                        <span class="remove-caret"></span>
+                        <select name="" id="">
+                          <option value="">- - - - Выберите пожалуйста - - - -</option>
+                          <option value="visa">Visa</option>
+                          <option value="mastercard">MasterCard</option>
+                        </select>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="step_unit-control">
+              <button type="button" class="btn btn-next">Далее</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="step_unit step-confirm">
+          <div class="step_unit-header">
+            <span>Шаг 4: Подтвердить заказ</span>
+            <a href="#" class="step_unit-header-edit">Редактировать <span class="sprite ico-two_arrows"></span></a>
+          </div>
+
+          <div class="step_unit-content">
+            <div>
+              <table class="confirm-table">
+                <thead>
+                  <tr>
+                    <td>Модель</td>
+                    <td>Количество</td>
+                    <td>Цена за еденицу</td>
+                    <td>Итого</td>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>HTC ONE</td>
+                    <td>1</td>
+                    <td>10 000 грн.</td>
+                    <td>10 000 грн.</td>
+                  </tr>
+
+                  <tr>
+                    <td>HTC ONE</td>
+                    <td>1</td>
+                    <td>10 000 грн.</td>
+                    <td>10 000 грн.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table class="total">
+                <tbody>
+                  <tr>
+                    <td>Итого к оплате:</td>
+                    <td>28 929.63грн.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="step_unit-control">
+              <a href="" class="btn btn-confirm">Подтвердить заказ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="partners">
+    <ul class="partners__list">
+      <li>
+        <a href="#">
+          <span class="partners__list-title">ЭКСПРЕСС-ДОСТАВКА</span>
+          <span class="partners__list-img_wrap">
+            <img src="./images/new/partners_shipping.png" alt="" class="partners__list-img">
+          </span>
+          <span class="partners__list-text">Удобная и быстрая доставка по всей Украине</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="partners__list-title">ОПЛАТА ПРИ ПОЛУЧЕНИИ</span>
+          <span class="partners__list-img_wrap">
+            <img src="./images/new/partners_payment.png" alt="" class="partners__list-img">
+          </span>
+          <span class="partners__list-text">Если Вам не подойдет CashSharp 2, мы вернем Вам деньги</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="partners__list-title">ГАРАНТИЯ ВОЗВРАТА</span>
+          <span class="partners__list-img_wrap">
+            <img src="./images/new/partners_guaranty.png" alt="" class="partners__list-img">
+          </span>
+          <span class="partners__list-text">Удобная и быстрая доставка по всей Украине</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="menu__btn basket under-filter">
+  <div class="menu__btn-count">0</div>
+  <div class="sprite ico-basket"></div>
+</div>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="sprite arrow-rhombus arrow-up js-scroll-top">
+      <div class="sprite ico-arrow"></div>
+    </div>
+    <ul class="footer__nav">
+      <li>
+        <dl>
+          <dt>
+            <div class="footer__nav-title">МЕНЮ</div> 
+            <div class="footer__nav-decor"></div>
+          </dt>
+          <dd><a href="#">Главная</a></dd>
+          <dd><a href="#">О компании</a></dd>
+          <dd><a href="#">Каталог товаров</a></dd>
+          <dd><a href="#">Новости</a></dd>
+          <dd><a href="#">Партнеры</a></dd>
+          <dd><a href="#">Контакты</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>
+            <div class="footer__nav-title">КАТАЛОГ ТОВАРОВ</div> 
+            <div class="footer__nav-decor"></div>
+          </dt>
+          <dd><a href="#">Мобильные телефоны</a></dd>
+          <dd><a href="#">Планшеты</a></dd>
+          <dd><a href="#">USB модемы</a></dd>
+          <dd><a href="#">MiFi роутеры</a></dd>
+          <dd><a href="#">Стационарные</a></dd>
+          <dd><a href="#">Ноутбуки</a></dd>
+          <dd><a href="#">Аксессуары</a></dd>
+        </dl>
+      </li>
+      <li>
+        <dl>
+          <dt>
+            <div class="footer__nav-title">КОНТАКТЫ</div> 
+            <div class="footer__nav-decor"></div>
+          </dt>
+          <dd>+380 44 362 46 64</dd>
+          <dd>sales@intercdma.ua</dd>
+          <dd>Skype:</dd>
+          <dd>intercdma_sale</dd>
+          <dd>Обратная связь</dd>
+        </dl>
+      </li>
+    </ul>
+    <div class="footer__soc">
+      <div class="footer__soc-decor"></div>
+      <ul class="footer__soc-list">
+        <li>
+          <a href="#"><img src="./images/new/soc_ico-vk.png" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/new/soc_ico-facebook.png" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/new/soc_ico-instagram.png" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/new/soc_ico-twitter.png" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="./images/new/soc_ico-youtube.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<div id="popup_block">
+  <div id="popup__fone"></div>
+  <div class="popup-wrap">
+    <div class="popup__window popup__login">
+      <div class="popup__login-header">
+        <img src="./images/new/reg_logo.png" alt="" class="popup__login-ico">
+        <div class="popup__login-title_wrap">
+          <h3 class="popup__login-title">Вход в личний кабинет</h3>
+          <div class="popup__login-title-hint">для зарегистрированных пользователей</div>
+        </div>
+      </div>
+      <label class="login_wrap">
+        <div class="popup__login-field-text">Логин</div>
+        <input type="text" class="popup__login-field" value="Введите ваш логин">
+      </label>
+      <label>
+        <div class="popup__login-field-text">Пароль</div>
+        <input type="text" class="popup__login-field" value="Введите ваш пароль">
+      </label>
+      <a href="#" class="popup__login-link">Забыли пароль?</a>
+      <button class="btn btn-default js-close-popup">Войти</button>
+    </div>
+  </div>
+</div>
+
+<script src="scripts/jquery-1.11.3.js"></script>
+<script src="scripts/jquery-ui-1.9.2.custom.js"></script>
+<!-- <script src="scripts/vendor.js"></script> -->
+<!-- <script src="scripts/plugins.js"></script> -->
+<script src="scripts/jquery.selectBoxIt.js"></script>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<script src="scripts/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function (b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function () {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = 'https://www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+{
+	"phones": [
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Samsung",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "LG",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Lenovo",
+			"price" : "1000$"
+		} , 
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Samsung1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "LG1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Lenovo1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Samsung2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "LG2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Lenovo2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Samsung3",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "LG3",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Lenovo3",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Samsung",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "LG",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Lenovo",
+			"price" : "1000$"
+		} , 
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Samsung1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "LG1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Lenovo1",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Samsung2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "LG2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "Lenovo2",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Samsung3",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item1.jpg",
+			"name" : "LG3",
+			"price" : "1000$"
+		} ,
+		{
+			"link" : "./images/new/search_item2.jpg",
+			"name" : "Lenovo3",
+			"price" : "1000$"
+		} 
+	]
+}

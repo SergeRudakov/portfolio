@@ -1,0 +1,3 @@
+<Files "emails">
+    deny from all
+</Files>
